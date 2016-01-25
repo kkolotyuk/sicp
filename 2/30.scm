@@ -1,3 +1,5 @@
+(define nil '())
+
 (define (square-tree tree)
   (cond ((null? tree) nil)
         ((not (pair? tree)) (* tree tree))
